@@ -1,9 +1,9 @@
 var http = require('http');
-var port = 2000;
+var port = 80;
 var server = http.createServer(function(req, res) {
   // 2 - 建立server
   res.writeHead(200, { 'Content-Type': 'application/json' });
-  res.write(JSON.stringify({ message: 'Hello World' }));
+  res.write(JSON.stringify({ message: 'Hello Dawson, Piece YA~' }));
   res.end();
 });
 
